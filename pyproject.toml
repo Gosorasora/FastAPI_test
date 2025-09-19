@@ -1,0 +1,15 @@
+[project]
+name = "Redis_JWT"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "DongHyeon Ko", email = "hanser0204@naver.com"},
+]
+dependencies = ["fastapi>=0.116.2", "uvicorn>=0.35.0", "sqlalchemy>=2.0.43"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
