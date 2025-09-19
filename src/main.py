@@ -8,7 +8,8 @@ from sqlalchemy import select
 from app.database import engine, Base, get_db
 from app.models.post import Post
 from app.schemas.post import PostResponse, PostCreate, PostUpdate
-from src.app.services.post_service import get_post_service, PostService
+from app.services.post_service import get_post_service, PostService
+
 
 app = FastAPI(
     title="FastAPI_Redis_JWT",

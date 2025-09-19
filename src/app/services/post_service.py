@@ -3,9 +3,9 @@ from fastapi import Depends
 from sqlalchemy.orm import Session
 from sqlalchemy import select
 
-from src.app.database import get_db
-from src.app.models.post import Post
-from src.app.schemas.post import PostCreate, PostUpdate
+from ..database import get_db
+from ..models.post import Post
+from ..schemas.post import PostCreate, PostUpdate
 
 
 class PostService:
